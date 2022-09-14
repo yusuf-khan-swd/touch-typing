@@ -188,10 +188,13 @@ body {
 @media screen and (min-width: 701px) {
   #histories {
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-template-columns: repeat(3 , 1fr);
     margin-bottom: 30px;
-  }  
+  }
+  .card {
+    text-align: left;
+  }
 }
 
 /* Blog page css */
